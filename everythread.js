@@ -1,7 +1,7 @@
 function commentAnnoysMe(commentText) {
   var blockList = [
     "hunter2", "broken arms", "trump", "-michael scott", "- michael scott",
-    "drumpf", "jumper cables", "/u/warlizard", "switcharoo", "with rice:"
+    "drumpf", "jumper cables", "warlizard", "switcharoo", "with rice:"
   ];
 
   for (var i = 0; i < blockList.length; i++) {
