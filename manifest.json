@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "Reddit Reference Filter",
+  "description": "Remove comment threads of tired, overused references and puns. I get it. We get it. We all get it.",
+  "version": "1.0",
+  "permissions": [
+    "https://www.reddit.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://www.reddit.com/*"],
+      "js": ["everythread.js"]
+    }
+  ]
+}
